@@ -19,8 +19,18 @@
 <header class="site-header py-3 border-bottom border-secondary-subtle">
 <div class="container">
 <nav class="navbar navbar-expand-lg navbar-dark p-0">
-<a aria-label="HEAD SERVICE LLC Home" class="navbar-brand d-flex align-items-center" href="/">
-<h2 class="fw-bold">HEAD SERVICE LLC</h2>
+<a
+  aria-label="HEAD SERVICE LLC Home"
+  class="navbar-brand flex flex-col items-start no-underline"
+  href="/"
+>
+  <h2 class="mb-0 text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+    HEAD SERVICE LLC
+  </h2>
+
+  <h6 class="mt-1  font-semibold uppercase tracking-[1px] text-gray-500 ">
+    Web Design &amp; Development
+  </h6>
 </a>
 <button aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler border-0 shadow-none" data-bs-target="#mainNav" data-bs-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
@@ -37,6 +47,12 @@
 <li><a class="dropdown-item" href="/content-strategy.html">Content Strategy</a></li>
 <li><a class="dropdown-item" href="/e-commerce-solutions.html">E-commerce Solutions</a></li>
 <li><a class="dropdown-item" href="/wordpress-development.html">WordPress Development</a></li>
+<li><a class="dropdown-item" href="/website-development.html">Website Development</a></li>
+<li><a class="dropdown-item" href="/app-development.html">App Development</a></li>
+<li><a class="dropdown-item" href="/web-application-development.html">Web Application Development</a></li>
+<li><a class="dropdown-item" href="/ui-ux-design.html">Ui Ux Design</a></li>
+<li><a class="dropdown-item" href="/e-learning-solutions.html">E-Learning Solutions</a></li>
+</li>
 </ul>
 </li>
 <li class="nav-item"><a class="nav-link" href="/pricing.html">Pricing</a></li>
@@ -163,75 +179,169 @@
 </div>
 <!-- SERVICES GRID -->
 <div class="row g-4">
-<div class="col-12 col-md-6 col-lg-4">
+
+    <!-- Content Strategy -->
+    <div class="col-12 col-md-6 col-lg-4">
+        <a class="service-card-link" href="/content-strategy.html">
+            <div class="service-card h-100">
+                <div class="service-card-top d-flex align-items-center justify-content-between mb-4">
+                    <div class="service-card-icon">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <div class="service-card-arrow">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <h3 class="service-card-title">Content Strategy</h3>
+                <p class="service-card-text mb-0">
+                    We provide content strategy built on audience needs, content planning, and clear messaging, aligning brand voice for stronger engagement, consistency, and measurable business growth.
+                </p>
+            </div>
+        </a>
+    </div>
+
+    <!-- E-commerce Solutions -->
+    <div class="col-12 col-md-6 col-lg-4">
+        <a class="service-card-link" href="/e-commerce-solutions.html">
+            <div class="service-card h-100">
+                <div class="service-card-top d-flex align-items-center justify-content-between mb-4">
+                    <div class="service-card-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="service-card-arrow">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <h3 class="service-card-title">E-commerce Solutions</h3>
+                <p class="service-card-text mb-0">
+                    We build scalable e-commerce solutions with seamless navigation, secure payments, and optimized user experience to increase conversions and support online business growth.
+                </p>
+            </div>
+        </a>
+    </div>
+
+    <!-- WordPress Development -->
+    <div class="col-12 col-md-6 col-lg-4">
+        <a class="service-card-link" href="/wordpress-development.html">
+            <div class="service-card h-100">
+                <div class="service-card-top d-flex align-items-center justify-content-between mb-4">
+                    <div class="service-card-icon">
+                        <i class="far fa-clone"></i>
+                    </div>
+                    <div class="service-card-arrow">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <h3 class="service-card-title">WordPress Development</h3>
+                <p class="service-card-text mb-0">
+                    We develop custom WordPress websites with flexible design, strong performance, and easy content management, ensuring scalability, security, and a seamless user experience.
+                </p>
+            </div>
+        </a>
+    </div>
+
+    <!-- Website Development -->
+    <div class="col-12 col-md-6 col-lg-4">
+        <a class="service-card-link" href="/website-development.html">
+            <div class="service-card h-100">
+                <div class="service-card-top d-flex align-items-center justify-content-between mb-4">
+                    <div class="service-card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="service-card-arrow">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <h3 class="service-card-title">Website Development</h3>
+                <p class="service-card-text mb-0">
+                    We create responsive business websites with modern design, reliable functionality, and smooth performance to help businesses build a strong online presence.
+                </p>
+            </div>
+        </a>
+    </div>
+
+    <!-- App Development -->
+    <div class="col-12 col-md-6 col-lg-4">
+        <a class="service-card-link" href="/app-development.html">
+            <div class="service-card h-100">
+                <div class="service-card-top d-flex align-items-center justify-content-between mb-4">
+                    <div class="service-card-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="service-card-arrow">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <h3 class="service-card-title">App Development</h3>
+                <p class="service-card-text mb-0">
+                    We develop user-friendly mobile applications with intuitive interfaces and practical features designed to meet business needs and improve customer experiences.
+                </p>
+            </div>
+        </a>
+    </div>
+
+    <!-- UI/UX Design -->
+    <div class="col-12 col-md-6 col-lg-4">
+        <a class="service-card-link" href="/ui-ux-design.html">
+            <div class="service-card h-100">
+                <div class="service-card-top d-flex align-items-center justify-content-between mb-4">
+                    <div class="service-card-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="service-card-arrow">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <h3 class="service-card-title">UI/UX Design</h3>
+                <p class="service-card-text mb-0">
+                    We design intuitive interfaces and user experiences through thoughtful layouts, clear navigation, and user-focused design for websites and applications.
+                </p>
+            </div>
+        </a>
+    </div>
+
+    <!-- Web Application Development -->
+    <div class="col-12 col-md-6 col-lg-4">
+        <a class="service-card-link" href="/web-application-development.html">
+            <div class="service-card h-100">
+                <div class="service-card-top d-flex align-items-center justify-content-between mb-4">
+                    <div class="service-card-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="service-card-arrow">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <h3 class="service-card-title">Web Application Development</h3>
+                <p class="service-card-text mb-0">
+                    We build custom web applications, business portals, and dashboards to streamline workflows, manage data, and support business operations.
+                </p>
+            </div>
+        </a>
+    </div>
+
+    <!-- E-learning Solutions -->
+    <div class="col-12 col-md-6 col-lg-4">
+        <a class="service-card-link" href="/e-learning-solutions.html">
+            <div class="service-card h-100">
+                <div class="service-card-top d-flex align-items-center justify-content-between mb-4">
+                    <div class="service-card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="service-card-arrow">
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <h3 class="service-card-title">E-learning Solutions</h3>
+                <p class="service-card-text mb-0">
+                    We create online learning platforms with organized courses, student-friendly interfaces, and practical learning tools for educational businesses and institutions.
+                </p>
+            </div>
+        </a>
+    </div>
+
 </div>
-<!-- Content Strategy -->
-<div class="col-12 col-md-6 col-lg-4">
-<a class="service-card-link" href="/content-strategy.html">
-<div class="service-card h-100">
-<div class="service-card-top d-flex align-items-center justify-content-between mb-4">
-<div class="service-card-icon">
-<i class="fas fa-pencil-alt"></i>
-</div>
-<div class="service-card-arrow">
-<i class="fas fa-arrow-up-right-from-square"></i>
-</div>
-</div>
-<h3 class="service-card-title">
-                                Content Strategy
-                            </h3>
-<p class="service-card-text mb-0">
-                                We provide content strategy built on audience needs, content planning, and clear messaging, aligning brand voice for stronger engagement, consistency, and measurable business growth.
-                            </p>
-</div>
-</a>
-</div>
-<!-- E-commerce Solutions -->
-<div class="col-12 col-md-6 col-lg-4">
-<a class="service-card-link" href="/e-commerce-solutions.html">
-<div class="service-card h-100">
-<div class="service-card-top d-flex align-items-center justify-content-between mb-4">
-<div class="service-card-icon">
-<i class="fas fa-shopping-cart"></i>
-</div>
-<div class="service-card-arrow">
-<i class="fas fa-arrow-up-right-from-square"></i>
-</div>
-</div>
-<h3 class="service-card-title">
-                                E-commerce Solutions
-                            </h3>
-<p class="service-card-text mb-0">
-                                We build scalable e-commerce solutions with seamless navigation, secure payments, and optimized user experience to increase conversions, improve customer satisfaction, and support consistent online business growth.
-                            </p>
-</div>
-</a>
-</div>
-<!-- WordPress Development -->
-<div class="col-12 col-md-6 col-lg-4">
-<a class="service-card-link" href="/wordpress-development.html">
-<div class="service-card h-100">
-<div class="service-card-top d-flex align-items-center justify-content-between mb-4">
-<div class="service-card-icon">
-<i class="far fa-clone"></i>
-</div>
-<div class="service-card-arrow">
-<i class="fas fa-arrow-up-right-from-square"></i>
-</div>
-</div>
-<h3 class="service-card-title">
-                                WordPress Development
-                            </h3>
-<p class="service-card-text mb-0">
-                                We develop custom WordPress websites with flexible design, strong performance, and easy content management, ensuring scalability, security, and a seamless user experience for growing businesses.
-                            </p>
-</div>
-</a>
-</div>
-<!-- Link Building -->
-<div class="col-12 col-md-6 col-lg-4">
-</div>
-</div>
+
 <div class="row mt-5">
 <div class="col-12">
 <div class="service-bottom-text text-center">
@@ -270,6 +380,9 @@
 <div class="col-lg-4">
 <a class="d-inline-block mb-4" href="#">
 <h2 class="fw-bold nav-f">HEAD SERVICE LLC</h2>
+<h6 class="mt-1  font-semibold uppercase tracking-[1px] text-gray-500 ">
+    Web Design &amp; Development
+  </h6>
 </a>
 <p class="footer-copy">Delivering reliable digital solutions for growth and success.</p>
 <div class="contact-block mt-4">
@@ -303,6 +416,11 @@
 <ul class="list-unstyled footer-links mb-0">
 <li><a href="/e-commerce-solutions.html">E-commerce Solutions</a></li>
 <li><a href="/wordpress-development.html">WordPress Development</a></li>
+<li><a  href="/website-development.html">Website Development</a></li>
+<li><a  href="/app-development.html">App Development</a></li>
+<li><a  href="/web-application-development.html">Web Application Development</a></li>
+<li><a  href="/ui-ux-design.html">Ui Ux Design</a></li>
+<li><a  href="/e-learning-solutions.html">E-Learning Solutions</a></li>
 </ul>
 </div>
 <div class="col-6 col-lg-2">
